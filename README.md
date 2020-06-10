@@ -8,6 +8,9 @@ Base project: https://github.com/garciacarlos78/spring-boot-rest-crud-api-spring
 Copied base project, renamed it and tested it.
 
 ## Commit: Spring Data REST implemented
-Code refactored to use a Spring Data REST.  
-REST API tested.  
-Deleted unused classes.
+Added Spring Data REST.  
+Added Postman collection with new endpoints.  
+Not deleted Spring Data JPA controller.  
+Spring Data REST customized to map /spring-data/employees  
+Spring Data JPA maps /api/employees  
+Both endpoints active, Spring Data REST using HATEOAS, not doing so Spring Data JPA.
